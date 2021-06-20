@@ -32,8 +32,8 @@ $ docker compose up -d
 log
 
 ```sh
-$ docker logs app
-$ docker logs db
+$ docker compose logs -f app
+$ docker compose logs -f db
 ```
 
 
